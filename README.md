@@ -1,6 +1,4 @@
-# registration-form
-
-## Member Registration Form
+# Member Registration Form
 
 ### Registration Form Step 1
 ![alt text](https://github.com/edwardkong86/registration-form/blob/main/shared/RegistrationFormStep1.png)
