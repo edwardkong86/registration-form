@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <RegistrationForm />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RegistrationForm from './components/RegistrationForm.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    RegistrationForm,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/* You can add global styles here */
+/* Global font family set to Arial */
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 </style>
